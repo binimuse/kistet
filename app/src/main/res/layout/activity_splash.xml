@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:background="@color/overlay_light_90"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/k"
+        android:id="@+id/logo" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="www.kistet.com"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:layout_marginBottom="2dp"/>
+
+</RelativeLayout>

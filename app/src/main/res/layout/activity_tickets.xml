@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.binim.kistetevent.Search">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/uuuu0"
+        android:gravity="top"
+        >
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tickets"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Tickets"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#ffff"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/darker_gray"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_confirmation_number_black_24dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="330dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not seeing your tickets? Learn more about how to find them. "
+        android:layout_marginLeft="75dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="395dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@color/blue_300"
+        android:text="Find my tickets "
+        android:layout_marginLeft="75dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+
+        />
+    <com.luseen.spacenavigation.SpaceNavigationView
+
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_alignParentBottom="true"
+        app:active_item_color="@color/colorPrimary"
+        app:centre_button_color="@color/colorPrimary"
+        app:inactive_item_color="@color/overlay_dark_90"
+        app:inactive_centre_button_icon_color="@color/overlay_light_90"
+        app:space_background_color="@color/white_with_alpha"
+        app:centre_button_icon="@drawable/ic_home_black_24dp"
+        app:space_item_icon_size="@dimen/space_item_icon_default_size"
+        app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+        app:space_item_text_size="@dimen/space_item_text_default_size"
+        />
+
+
+</RelativeLayout>
